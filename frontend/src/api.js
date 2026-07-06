@@ -14,9 +14,12 @@ async function handleResponse(res) {
   }
 
   if (res.status === 401) {
-    localStorage.removeItem('token');
-    window.location.href = '/login';
-    throw new Error('Session expired. Please sign in again.');
+    if (window.location.pathname !== '/login') {
+      localStorage.removeItem('token');
+      window.location.href = '/login';
+      throw new Error('Session expired. Please sign in again.');
+    }
+    throw new Error(data.error || 'Invalid email or password.');
   }
 
   if (res.status === 429) {

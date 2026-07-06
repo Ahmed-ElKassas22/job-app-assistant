@@ -34,8 +34,8 @@ export default function Register() {
   const [form, setForm] = useState({ firstName: '', lastName: '', email: '', password: '', confirm: '' });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirm, setShowConfirm] = useState(false);
+  const [showPassword, setShowPassword] = useState(true);
+  const [showConfirm, setShowConfirm] = useState(true);
 
   function handleChange(e) {
     setForm((f) => ({ ...f, [e.target.name]: e.target.value }));

@@ -1,0 +1,94 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="750" fill="#f9fafb"/>
+
+  <!-- Header bar -->
+  <rect width="1200" height="64" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="24" y="20" width="28" height="28" rx="6" fill="#4f46e5"/>
+  <rect x="32" y="28" width="12" height="2" rx="1" fill="white"/>
+  <rect x="32" y="33" width="12" height="2" rx="1" fill="white"/>
+  <rect x="32" y="38" width="8" height="2" rx="1" fill="white"/>
+  <text x="62" y="37" font-size="15" font-weight="600" fill="#111827">Job App Assistant</text>
+  <text x="1120" y="37" font-size="13" fill="#6b7280">Sign out</text>
+
+  <!-- Upload card -->
+  <rect x="24" y="88" width="1152" height="240" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="48" y="120" font-size="16" font-weight="600" fill="#111827">Analyze Your Application</text>
+
+  <!-- PDF drop zone -->
+  <rect x="48" y="136" width="540" height="168" rx="12" fill="#f0fdf4" stroke="#4ade80" stroke-width="2" stroke-dasharray="8,4"/>
+  <circle cx="318" cy="196" r="20" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <path d="M311 196 l5 5 l9-9" stroke="#22c55e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="318" y="228" font-size="13" font-weight="500" fill="#15803d" text-anchor="middle">resume_senior_engineer.pdf</text>
+  <text x="318" y="246" font-size="11" fill="#6b7280" text-anchor="middle">142 KB</text>
+  <text x="318" y="266" font-size="11" fill="#9ca3af" text-anchor="middle" text-decoration="underline">Remove</text>
+
+  <!-- Job description textarea -->
+  <rect x="612" y="136" width="516" height="168" rx="12" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="632" y="162" font-size="12" fill="#6b7280">We are looking for a Senior Backend Engineer with 5+ years</text>
+  <text x="632" y="180" font-size="12" fill="#6b7280">of experience in Python and cloud infrastructure (AWS).</text>
+  <text x="632" y="198" font-size="12" fill="#6b7280">Strong understanding of microservices architecture and</text>
+  <text x="632" y="216" font-size="12" fill="#6b7280">CI/CD pipelines required. Kubernetes experience is a plus.</text>
+  <text x="632" y="234" font-size="12" fill="#6b7280">BS in Computer Science or related field preferred.</text>
+
+  <!-- Analyze button -->
+  <rect x="1032" y="316" width="144" height="36" rx="8" fill="#4f46e5"/>
+  <text x="1104" y="339" font-size="13" font-weight="600" fill="white" text-anchor="middle">Analyze Application</text>
+
+  <!-- Results heading -->
+  <text x="24" y="372" font-size="16" font-weight="600" fill="#111827">Analysis Results</text>
+
+  <!-- Score card -->
+  <rect x="24" y="390" width="564" height="164" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="48" y="416" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="0.08em">MATCH SCORE</text>
+  <circle cx="200" cy="490" r="52" fill="none" stroke="#e5e7eb" stroke-width="12"/>
+  <circle cx="200" cy="490" r="52" fill="none" stroke="#4ade80" stroke-width="12" stroke-linecap="round"
+    stroke-dasharray="326.7" stroke-dashoffset="58.8" transform="rotate(-90 200 490)"/>
+  <text x="200" y="484" font-size="28" font-weight="700" fill="#16a34a" text-anchor="middle">82</text>
+  <text x="200" y="500" font-size="11" fill="#9ca3af" text-anchor="middle">/ 100</text>
+  <text x="200" y="524" font-size="13" font-weight="600" fill="#16a34a" text-anchor="middle">Strong Match</text>
+
+  <!-- Skill gaps card -->
+  <rect x="612" y="390" width="564" height="164" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="636" y="416" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="0.08em">SKILL GAPS</text>
+  <rect x="636" y="428" width="88" height="28" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="680" y="447" font-size="12" font-weight="500" fill="#b91c1c" text-anchor="middle">Kubernetes</text>
+  <rect x="736" y="428" width="96" height="28" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="784" y="447" font-size="12" font-weight="500" fill="#b91c1c" text-anchor="middle">CI/CD Pipelines</text>
+  <rect x="844" y="428" width="112" height="28" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="900" y="447" font-size="12" font-weight="500" fill="#b91c1c" text-anchor="middle">AWS Certification</text>
+  <rect x="636" y="468" width="104" height="28" rx="14" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+  <text x="688" y="487" font-size="12" font-weight="500" fill="#b91c1c" text-anchor="middle">System Design</text>
+
+  <!-- Bullets card -->
+  <rect x="24" y="566" width="564" height="164" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="48" y="592" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="0.08em">REWRITTEN RESUME BULLETS</text>
+  <!-- bullet 1 -->
+  <circle cx="68" cy="618" r="10" fill="#e0e7ff"/>
+  <text x="68" y="622" font-size="11" font-weight="700" fill="#4338ca" text-anchor="middle">1</text>
+  <text x="90" y="614" font-size="12" fill="#374151">Architected and led migration of monolith to microservices on AWS,</text>
+  <text x="90" y="630" font-size="12" fill="#374151">reducing API latency by 40% across 3 product lines.</text>
+  <!-- bullet 2 -->
+  <circle cx="68" cy="654" r="10" fill="#e0e7ff"/>
+  <text x="68" y="658" font-size="11" font-weight="700" fill="#4338ca" text-anchor="middle">2</text>
+  <text x="90" y="650" font-size="12" fill="#374151">Managed cross-functional team of 4 engineers delivering CI/CD pipelines</text>
+  <text x="90" y="666" font-size="12" fill="#374151">that cut deployment time by 60%.</text>
+  <!-- bullet 3 -->
+  <circle cx="68" cy="690" r="10" fill="#e0e7ff"/>
+  <text x="68" y="694" font-size="11" font-weight="700" fill="#4338ca" text-anchor="middle">3</text>
+  <text x="90" y="690" font-size="12" fill="#374151">Designed Python REST APIs serving 2M+ daily requests with 99.9% uptime.</text>
+
+  <!-- Cover letter card -->
+  <rect x="612" y="566" width="564" height="164" rx="16" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="636" y="592" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="0.08em">COVER LETTER</text>
+  <text x="1128" y="592" font-size="11" font-weight="500" fill="#4f46e5" text-anchor="end">Copy</text>
+  <text x="636" y="616" font-size="12" fill="#374151">Dear Hiring Manager,</text>
+  <text x="636" y="636" font-size="12" fill="#374151">I am excited to apply for the Senior Backend Engineer role. With five years</text>
+  <text x="636" y="654" font-size="12" fill="#374151">of Python experience and a track record of building scalable microservices</text>
+  <text x="636" y="672" font-size="12" fill="#374151">on AWS, I am confident I can contribute immediately to your team.</text>
+  <text x="636" y="692" font-size="12" fill="#9ca3af">…</text>
+
+  <!-- Placeholder label -->
+  <rect x="430" y="710" width="340" height="28" rx="6" fill="#f3f4f6"/>
+  <text x="600" y="729" font-size="12" fill="#6b7280" text-anchor="middle">Replace docs/screenshot.svg with a real screenshot</text>
+</svg>

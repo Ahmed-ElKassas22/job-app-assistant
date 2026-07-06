@@ -187,6 +187,7 @@ export default function Register() {
                 required
                 minLength={6}
                 placeholder="Minimum 6 characters"
+                autoComplete="new-password"
                 className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
               />
             </div>
@@ -199,6 +200,7 @@ export default function Register() {
                 onChange={handleChange}
                 required
                 placeholder="••••••••"
+                autoComplete="new-password"
                 className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition"
               />
             </div>

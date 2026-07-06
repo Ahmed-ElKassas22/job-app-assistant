@@ -1,7 +1,12 @@
 require('dotenv').config();
 const { Pool } = require('pg');
 
-const pool = new Pool({ connectionString: process.env.DATABASE_URL });
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.DATABASE_URL?.includes('rds.amazonaws.com')
+    ? { rejectUnauthorized: false }
+    : false,
+});
 
 pool.on('error', (err) => {
   console.error('Unexpected PostgreSQL error', err);

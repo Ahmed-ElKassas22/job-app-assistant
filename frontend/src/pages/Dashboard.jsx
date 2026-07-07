@@ -102,7 +102,7 @@ export default function Dashboard() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src="/icon.png" alt="Job Analyzer AI" className="h-8 w-8 object-contain" />
+            <img src="/icon.png" alt="Job Analyzer AI" className="h-12 w-12 object-contain" />
             <span className="font-bold text-gray-900 tracking-tight">Job Analyzer AI</span>
           </div>
 
